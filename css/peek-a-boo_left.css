@@ -1,0 +1,31 @@
+div.peek-a-boo_left {
+	position: fixed;
+	z-index: 100;
+	bottom: -145px;
+	left: -122px;
+	-webkit-transform: scale(0.75) rotate(39deg);
+	-moz-transform: scale(0.75) rotate(39deg);
+	-o-transform: scale(0.75) rotate(39deg);
+	/* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0.43); */
+	-ms-transform: scale(0.75) rotate(39deg);
+	-webkit-transform: scale(0.75) rotate(39deg);
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+div.peek-a-boo_left:hover {
+	bottom: 20px;
+	left: 10px;
+	-webkit-transform: scale(1) rotate(0deg);
+	-moz-transform: scale(1) rotate(0deg);
+	-o-transform: scale(1) rotate(0deg);
+	/* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0); */
+	-ms-transform: scale(1) rotate(0deg);
+	-webkit-transform: scale(1) rotate(0deg);
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
